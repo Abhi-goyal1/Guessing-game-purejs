@@ -59,14 +59,3 @@ const car = function (a, b){
 }
 car(2,9);
 
-function multi(func, count){
-  for(let i = 1; i<=count;i++){
-    func();
-  }
-}
-
-let greet = function(){
-  console.log("Good-after Noon");
-} 
-
-multi(greet, 10);
